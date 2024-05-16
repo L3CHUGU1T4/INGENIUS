@@ -1,0 +1,230 @@
+body {
+    margin: 0px;
+    color: rgb(19, 23, 32);
+    font-size: 0.9375rem;
+    font-weight: 400;
+    font-family: Inter, "sans-serif";
+    line-height: 1.5;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(243, 243, 243, 0.95);
+    padding: 15px 30px;
+    border-radius: 45px;
+    box-shadow: 0 4px 18px rgba(57, 187, 223, 0.633);
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1200px;
+    z-index: 1000;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 100;
+    font-size: 17px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+.buy-ticket {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-ticket:hover {
+    background-color: #0056b3;
+}
+
+main {
+    padding-top: 60px;
+}
+
+section {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+}
+
+.course {
+    max-width: 10000px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #004d9e;
+    font-weight: bold;
+}
+
+.course-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+}
+
+.course-info {
+    flex: 2;
+    min-width: 300px;
+}
+
+.course-info h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.course-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.instructor-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.instructor-profile img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.instructor-details h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.course-map {
+    flex: 1;
+    min-width: 300px;
+}
+
+.course-map h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.course-map img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #dae1e7;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 18px rgba(57, 187, 223, 0.633);
+}
+
+
+footer {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.footer-info {
+    text-align: left;
+    flex: 2;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.buy-ticket-footer {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-ticket-footer:hover {
+    background-color: #0056b3;
+}
+
+.footer-links {
+    text-align: left;
+    flex: 1;
+}
+
+.footer-links h3 {
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #007bff;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+}
